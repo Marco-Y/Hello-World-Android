@@ -14,7 +14,7 @@ void setup()
   //Canvas Setup
   //Display Orientation must be decided before coding
   //fullScreen();
-  size(200, 300); //Display Geometry: Landscape, Portrait, Square
+  size(100, 200); //Display Geometry: Landscape, Portrait, Square
   //Able to swap key variables to test rest of app
   appWidth = width; //displayWidth
   appHeight = height; //displayHeight
@@ -31,7 +31,7 @@ void setup()
   println (DO, orientation);
   if ( orientation == p) println(instruct); //Landscape is preferred
   if ( orientation == ls) {
-    println("Good to Go");
+    println("Good to Go";
   } else {
     println(instruct);
     appWidth *= 0; // appWidth = appWidth*0
