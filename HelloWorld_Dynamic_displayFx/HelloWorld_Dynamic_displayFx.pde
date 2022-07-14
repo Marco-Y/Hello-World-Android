@@ -37,7 +37,7 @@ void setup()
   println (DO, orientation);
   if ( orientation == p) println(instruct); //Landscape is preferred
   if ( orientation == ls) {
-    println("Good to Go";
+    println("Good to Go");
   } else {
     println(instruct);
     appWidth *= 0; // appWidth = appWidth*0
